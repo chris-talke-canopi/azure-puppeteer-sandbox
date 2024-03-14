@@ -11,6 +11,9 @@
     "test": "echo \"No tests yet...\"",
     "postinstall": "npx puppeteer browsers install chrome && node node_modules/puppeteer/install.mjs"
   },
+  "config": {
+    "unsafe-perm":true
+  },
   "dependencies": {
     "@azure/functions": "^4.0.0",
     "puppeteer": "^22.4.1"
